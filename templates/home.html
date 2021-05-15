@@ -6,4 +6,13 @@
 
 {% block content %}
 Welcome
+<form action="/instabot/" method="POST">
+<button type="submit" name="instabot">Instabot</button> 
+</form>
+
+<form action="/getnames/" method="POST">
+    <button type="submit" name="names">Get Names</button> 
+</form>
+
+{{ notList }}
 {% endblock %}
